@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影视分类 - 国产高清影视</title>
+    <meta name="description" content="按类型、地区浏览国产高清影视、电影、电视剧、综艺和动漫内容。">
+    <meta name="keywords" content="国产影视,高清电影,免费观看,在线播放,不卡顿,大陆电影,香港电影,台湾电影,电视剧,综艺节目">
+    <link rel="stylesheet" href="./assets/styles.css">
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="nav-wrap">
+        <a class="brand" href="./index.html" aria-label="国产高清影视首页">
+            <span class="brand-mark">影</span>
+            <span>国产高清影视</span>
+        </a>
+        <nav class="desktop-nav">
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./rankings.html">排行榜</a>
+            <a href="./category/all.html">片库</a>
+            <a href="./category/film.html">电影</a>
+            <a href="./category/series.html">剧集</a>
+        </nav>
+        <form class="nav-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="mobile-toggle" type="button" aria-label="展开导航" data-menu-button>☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-menu>
+        <form action="./search.html" method="get" class="mobile-search">
+            <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./rankings.html">排行榜</a>
+        <a href="./category/all.html">片库</a>
+        <a href="./category/film.html">电影</a>
+        <a href="./category/series.html">剧集</a>
+        <a href="./category/variety.html">综艺</a>
+        <a href="./category/animation.html">动漫</a>
+    </div>
+</header>
+<main>
+<section class="page-hero">
+    <div class="page-hero-inner">
+        <span class="eyebrow">国产高清影视</span>
+        <h1>影视分类</h1>
+        <p>按影片类型、地区与题材快速进入不同片库。</p>
+        <div class="hero-actions small-actions">
+            <a class="btn primary" href="./category/all.html">浏览片库</a>
+            <a class="btn ghost" href="./rankings.html">查看排行</a>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="category-overview">
+<a class="category-tile" href="./category/all.html" style="--tile-image: url('./1.jpg');">
+    <div>
+        <span>全部片库</span>
+        <p>精选大陆、香港、台湾及全球热门影视内容，按标题、年份、地区和类型快速浏览。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/film.html" style="--tile-image: url('./2.jpg');">
+    <div>
+        <span>高清电影</span>
+        <p>汇集剧情、动作、悬疑、喜剧、科幻等类型电影内容。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/series.html" style="--tile-image: url('./1.jpg');">
+    <div>
+        <span>电视剧集</span>
+        <p>收录国产、港剧、台剧和海外剧集内容，适合连续追看。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/variety.html" style="--tile-image: url('./148.jpg');">
+    <div>
+        <span>综艺节目</span>
+        <p>聚合真人秀、访谈、舞台、音乐与生活方式综艺。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/animation.html" style="--tile-image: url('./15.jpg');">
+    <div>
+        <span>动漫动画</span>
+        <p>动画电影、动漫剧集与家庭向动画内容集中展示。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/documentary.html" style="--tile-image: url('./134.jpg');">
+    <div>
+        <span>纪录片</span>
+        <p>真实题材、人文历史、自然探索与社会观察类内容。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/mainland.html" style="--tile-image: url('./9.jpg');">
+    <div>
+        <span>大陆影视</span>
+        <p>大陆地区电影、电视剧、网络剧与综艺内容。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/hongkong.html" style="--tile-image: url('./3.jpg');">
+    <div>
+        <span>香港影视</span>
+        <p>香港电影、港剧、粤语内容与经典题材作品。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/taiwan.html" style="--tile-image: url('./1.jpg');">
+    <div>
+        <span>台湾影视</span>
+        <p>台湾地区剧集、电影与人文情感作品。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/japan.html" style="--tile-image: url('./15.jpg');">
+    <div>
+        <span>日本影视</span>
+        <p>日本电影、日剧、动画与悬疑青春作品。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/korea.html" style="--tile-image: url('./7.jpg');">
+    <div>
+        <span>韩国影视</span>
+        <p>韩国剧集、电影、爱情、悬疑与现实题材内容。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/usa.html" style="--tile-image: url('./5.jpg');">
+    <div>
+        <span>美国影视</span>
+        <p>美国电影、剧集、科幻动作与商业类型片。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/europe.html" style="--tile-image: url('./2.jpg');">
+    <div>
+        <span>欧洲影视</span>
+        <p>英国、法国、意大利、西班牙等欧洲地区影片与剧集。</p>
+    </div>
+</a>
+<a class="category-tile" href="./category/other-region.html" style="--tile-image: url('./77.jpg');">
+    <div>
+        <span>其他地区</span>
+        <p>来自更多地区的影视作品与多元题材内容。</p>
+    </div>
+</a>
+    </div>
+</section>
+<section class="section">
+    <div class="section-head">
+        <div>
+            <span class="eyebrow">推荐入口</span>
+            <h2>热门内容直达</h2>
+        </div>
+        <a href="./rankings.html">查看排行</a>
+    </div>
+<div class="movie-grid" data-card-list>
+<article class="movie-card" data-title="最可爱的人" data-region="中国大陆" data-type="电影" data-year="2020" data-search="最可爱的人 中国大陆 电影 2020 动画 / 战争 / 历史 抗美援朝，英雄主义，热血，纪实动画 动画重现杨根思、邱少云、黄继光等志愿军战士的壮烈瞬间，还原那场立国之战的温度。">
+    <a class="poster-link" href="./movies/movie-0031.html" aria-label="观看最可爱的人">
+        <img src="./31.jpg" alt="最可爱的人海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2020 · 中国大陆</div>
+        <h3><a href="./movies/movie-0031.html">最可爱的人</a></h3>
+        <p>动画重现杨根思、邱少云、黄继光等志愿军战士的壮烈瞬间，还原那场立国之战的温度。</p>
+        <div class="tag-row"><span>动画</span><span>战争</span><span>历史</span><span>抗美援朝</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="诛奸记" data-region="中国大陆" data-type="电影" data-year="2026" data-search="诛奸记 中国大陆 电影 2026 古装 / 悬疑 / 动作 古代复仇, 连环杀人, 青楼 南宋临安城，一名戴傩面的侠客按“奸臣录”的顺序刺杀贪官，捕快查案时发现自己也在名单上。">
+    <a class="poster-link" href="./movies/movie-0032.html" aria-label="观看诛奸记">
+        <img src="./32.jpg" alt="诛奸记海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2026 · 中国大陆</div>
+        <h3><a href="./movies/movie-0032.html">诛奸记</a></h3>
+        <p>南宋临安城，一名戴傩面的侠客按“奸臣录”的顺序刺杀贪官，捕快查案时发现自己也在名单上。</p>
+        <div class="tag-row"><span>古装</span><span>悬疑</span><span>动作</span><span>古代复仇</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="薰衣草粤语" data-region="中国香港" data-type="剧集" data-year="2025" data-search="薰衣草粤语 中国香港 剧集 2025 爱情 / 家庭 家族恩怨, 失忆, 花语, 治愈 一位失去记忆的花店老板，通过一束束薰衣草，帮助他人也拼凑起自己的过去。">
+    <a class="poster-link" href="./movies/movie-0033.html" aria-label="观看薰衣草粤语">
+        <img src="./33.jpg" alt="薰衣草粤语海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">剧集</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2025 · 中国香港</div>
+        <h3><a href="./movies/movie-0033.html">薰衣草粤语</a></h3>
+        <p>一位失去记忆的花店老板，通过一束束薰衣草，帮助他人也拼凑起自己的过去。</p>
+        <div class="tag-row"><span>爱情</span><span>家庭</span><span>家族恩怨</span><span>失忆</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="紧急降落" data-region="美国" data-type="电影" data-year="2024" data-search="紧急降落 美国 电影 2024 动作 / 灾难 / 惊悚 空难, 反恐, 迫降, 极限生存 一架被黑客远程劫持的客机上，一名地面模拟机教员必须用游戏摇杆在5分钟内引导乘客迫降。">
+    <a class="poster-link" href="./movies/movie-0034.html" aria-label="观看紧急降落">
+        <img src="./34.jpg" alt="紧急降落海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2024 · 美国</div>
+        <h3><a href="./movies/movie-0034.html">紧急降落</a></h3>
+        <p>一架被黑客远程劫持的客机上，一名地面模拟机教员必须用游戏摇杆在5分钟内引导乘客迫降。</p>
+        <div class="tag-row"><span>动作</span><span>灾难</span><span>惊悚</span><span>空难</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="黑猫重案组" data-region="中国香港" data-type="剧集" data-year="2024" data-search="黑猫重案组 中国香港 剧集 2024 警匪、悬疑、动作 灵异探案、猫眼视角、连环杀手、双雄搭档 每一次凶案现场都出现一只神秘的黑猫，而只有那个能看到猫眼记忆的古怪刑警，才能破译死者的最后遗言。">
+    <a class="poster-link" href="./movies/movie-0035.html" aria-label="观看黑猫重案组">
+        <img src="./35.jpg" alt="黑猫重案组海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">剧集</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2024 · 中国香港</div>
+        <h3><a href="./movies/movie-0035.html">黑猫重案组</a></h3>
+        <p>每一次凶案现场都出现一只神秘的黑猫，而只有那个能看到猫眼记忆的古怪刑警，才能破译死者的最后遗言。</p>
+        <div class="tag-row"><span>警匪</span><span>悬疑</span><span>动作</span><span>灵异探案</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="最爱的你" data-region="中国香港" data-type="电影" data-year="2026" data-search="最爱的你 中国香港 电影 2026 爱情，剧情 港产片，纯爱，失忆，重逢，催泪 她失忆了，只记得“最爱的人”四个字，却忘了那个人长什么样。">
+    <a class="poster-link" href="./movies/movie-0036.html" aria-label="观看最爱的你">
+        <img src="./36.jpg" alt="最爱的你海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2026 · 中国香港</div>
+        <h3><a href="./movies/movie-0036.html">最爱的你</a></h3>
+        <p>她失忆了，只记得“最爱的人”四个字，却忘了那个人长什么样。</p>
+        <div class="tag-row"><span>爱情</span><span>剧情</span><span>港产片</span><span>纯爱</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="红侠艳史" data-region="中国香港" data-type="电影" data-year="1995" data-search="红侠艳史 中国香港 电影 1995 动作, 爱情, 武侠 女侠, 民国传奇, 侠骨柔情, 恩怨情仇, 旗袍打斗 民国乱世，一身红衣的复仇女侠专杀负心汉，却在仇人名单上看到了青梅竹马的名字。">
+    <a class="poster-link" href="./movies/movie-0037.html" aria-label="观看红侠艳史">
+        <img src="./37.jpg" alt="红侠艳史海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">1995 · 中国香港</div>
+        <h3><a href="./movies/movie-0037.html">红侠艳史</a></h3>
+        <p>民国乱世，一身红衣的复仇女侠专杀负心汉，却在仇人名单上看到了青梅竹马的名字。</p>
+        <div class="tag-row"><span>动作</span><span>爱情</span><span>武侠</span><span>女侠</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="嫉妒是我的力量" data-region="西班牙" data-type="电影" data-year="2025" data-search="嫉妒是我的力量 西班牙 电影 2025 剧情 / 惊悚 姐妹、嫉妒、心理战、豪宅、阴谋 姐姐是完美名媛，妹妹是流浪画家。当姐姐订婚，妹妹决定毁掉她的一切。">
+    <a class="poster-link" href="./movies/movie-0038.html" aria-label="观看嫉妒是我的力量">
+        <img src="./38.jpg" alt="嫉妒是我的力量海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2025 · 西班牙</div>
+        <h3><a href="./movies/movie-0038.html">嫉妒是我的力量</a></h3>
+        <p>姐姐是完美名媛，妹妹是流浪画家。当姐姐订婚，妹妹决定毁掉她的一切。</p>
+        <div class="tag-row"><span>剧情</span><span>惊悚</span><span>姐妹</span><span>嫉妒</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="白玉思无瑕" data-region="中国大陆" data-type="剧集" data-year="2021" data-search="白玉思无瑕 中国大陆 剧集 2021 古装, 爱情, 武侠, 甜宠 女强, 探案, 欢喜冤家, 高颜值 江湖第一女捕头“白玉”奉命保护纨绔公子，却发现对方竟是十年前杀害自己师父的嫌疑人。">
+    <a class="poster-link" href="./movies/movie-0039.html" aria-label="观看白玉思无瑕">
+        <img src="./39.jpg" alt="白玉思无瑕海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">剧集</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2021 · 中国大陆</div>
+        <h3><a href="./movies/movie-0039.html">白玉思无瑕</a></h3>
+        <p>江湖第一女捕头“白玉”奉命保护纨绔公子，却发现对方竟是十年前杀害自己师父的嫌疑人。</p>
+        <div class="tag-row"><span>古装</span><span>爱情</span><span>武侠</span><span>甜宠</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="誓言永恒" data-region="中国大陆" data-type="电视剧" data-year="2018" data-search="誓言永恒 中国大陆 电视剧 2018 剧情 / 年代 抗战, 兄弟情, 卧底 一对结拜兄弟在抗战时期走上不同道路，一句誓言支撑了他们整整四十年。">
+    <a class="poster-link" href="./movies/movie-0040.html" aria-label="观看誓言永恒">
+        <img src="./40.jpg" alt="誓言永恒海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电视剧</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2018 · 中国大陆</div>
+        <h3><a href="./movies/movie-0040.html">誓言永恒</a></h3>
+        <p>一对结拜兄弟在抗战时期走上不同道路，一句誓言支撑了他们整整四十年。</p>
+        <div class="tag-row"><span>剧情</span><span>年代</span><span>抗战</span><span>兄弟情</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="十二夜 国语" data-region="中国香港" data-type="电影" data-year="2000" data-search="十二夜 国语 中国香港 电影 2000 爱情 都市, 情感, 写实, 分手 一段感情的十二个夜晚，从激情到厌倦，每一夜都是爱情的病理报告。">
+    <a class="poster-link" href="./movies/movie-0041.html" aria-label="观看十二夜 国语">
+        <img src="./41.jpg" alt="十二夜 国语海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2000 · 中国香港</div>
+        <h3><a href="./movies/movie-0041.html">十二夜 国语</a></h3>
+        <p>一段感情的十二个夜晚，从激情到厌倦，每一夜都是爱情的病理报告。</p>
+        <div class="tag-row"><span>爱情</span><span>都市</span><span>情感</span><span>写实</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="克雷斯的魔法学院" data-region="英国" data-type="剧集" data-year="2026" data-search="克雷斯的魔法学院 英国 剧集 2026 奇幻 / 冒险 / 校园 魔法学院, 废柴逆袭, 元素魔法, 阴谋, 青少年 零魔法天赋的少年被顶级魔法学院破格录取，却发现整所学校是一个巨大的骗局。">
+    <a class="poster-link" href="./movies/movie-0042.html" aria-label="观看克雷斯的魔法学院">
+        <img src="./42.jpg" alt="克雷斯的魔法学院海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">剧集</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2026 · 英国</div>
+        <h3><a href="./movies/movie-0042.html">克雷斯的魔法学院</a></h3>
+        <p>零魔法天赋的少年被顶级魔法学院破格录取，却发现整所学校是一个巨大的骗局。</p>
+        <div class="tag-row"><span>奇幻</span><span>冒险</span><span>校园</span><span>魔法学院</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="绿茵之外" data-region="西班牙 / 阿根廷" data-type="电影" data-year="2025" data-search="绿茵之外 西班牙 / 阿根廷 电影 2025 运动 / 剧情 足球、父子、小镇、梦想、遗憾 一座阿根廷偏远小镇的垃圾填埋场上，一群拾荒少年的足球梦踢破了现实的围墙。">
+    <a class="poster-link" href="./movies/movie-0043.html" aria-label="观看绿茵之外">
+        <img src="./43.jpg" alt="绿茵之外海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2025 · 西班牙 / 阿根廷</div>
+        <h3><a href="./movies/movie-0043.html">绿茵之外</a></h3>
+        <p>一座阿根廷偏远小镇的垃圾填埋场上，一群拾荒少年的足球梦踢破了现实的围墙。</p>
+        <div class="tag-row"><span>运动</span><span>剧情</span><span>足球</span><span>父子</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="坏记忆橡皮擦" data-region="韩国" data-type="电影" data-year="2025" data-search="坏记忆橡皮擦 韩国 电影 2025 爱情 / 科幻 / 剧情 记忆删除，反乌托邦，虐恋，伦理困境 一款能定向删除痛苦记忆的医疗笔，让一对分手三年的恋人彻底忘了为何不爱，却重新爱上了彼此。">
+    <a class="poster-link" href="./movies/movie-0044.html" aria-label="观看坏记忆橡皮擦">
+        <img src="./44.jpg" alt="坏记忆橡皮擦海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2025 · 韩国</div>
+        <h3><a href="./movies/movie-0044.html">坏记忆橡皮擦</a></h3>
+        <p>一款能定向删除痛苦记忆的医疗笔，让一对分手三年的恋人彻底忘了为何不爱，却重新爱上了彼此。</p>
+        <div class="tag-row"><span>爱情</span><span>科幻</span><span>剧情</span><span>记忆删除</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="一往无前" data-region="美国" data-type="电影" data-year="2005" data-search="一往无前 美国 电影 2005 传记 / 音乐 / 剧情 乡村音乐, 约翰尼·卡什, 戒毒, 巡演, 凤凰河 一个来自棉花农场的男孩如何成为“黑衣人”传奇，以及他与琼·卡特的旷世之恋。">
+    <a class="poster-link" href="./movies/movie-0045.html" aria-label="观看一往无前">
+        <img src="./45.jpg" alt="一往无前海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2005 · 美国</div>
+        <h3><a href="./movies/movie-0045.html">一往无前</a></h3>
+        <p>一个来自棉花农场的男孩如何成为“黑衣人”传奇，以及他与琼·卡特的旷世之恋。</p>
+        <div class="tag-row"><span>传记</span><span>音乐</span><span>剧情</span><span>乡村音乐</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="荒柯艳迹" data-region="中国台湾" data-type="电影" data-year="1993" data-search="荒柯艳迹 中国台湾 电影 1993 剧情 / 情色 / 伦理 禁忌之恋，乡村，时代悲剧，文艺，人性压抑 日据时期台湾南部农村，养女阿秀与养父之间一段无法言说的畸恋，最终被一纸婚约彻底碾碎。">
+    <a class="poster-link" href="./movies/movie-0046.html" aria-label="观看荒柯艳迹">
+        <img src="./46.jpg" alt="荒柯艳迹海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">1993 · 中国台湾</div>
+        <h3><a href="./movies/movie-0046.html">荒柯艳迹</a></h3>
+        <p>日据时期台湾南部农村，养女阿秀与养父之间一段无法言说的畸恋，最终被一纸婚约彻底碾碎。</p>
+        <div class="tag-row"><span>剧情</span><span>情色</span><span>伦理</span><span>禁忌之恋</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="换乘恋爱第三季" data-region="韩国" data-type="剧集" data-year="2023" data-search="换乘恋爱第三季 韩国 剧集 2023 真人秀, 爱情 恋综, 前任, 复杂关系, 情感修罗场 这一次，五对分手情侣入住同一屋檐，有人试图复合，有人为了彻底告别。 前任竟在我身边，而我的室友正在追求我的前任，这就是新的地狱开局。">
+    <a class="poster-link" href="./movies/movie-0047.html" aria-label="观看换乘恋爱第三季">
+        <img src="./47.jpg" alt="换乘恋爱第三季海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">剧集</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2023 · 韩国</div>
+        <h3><a href="./movies/movie-0047.html">换乘恋爱第三季</a></h3>
+        <p>这一次，五对分手情侣入住同一屋檐，有人试图复合，有人为了彻底告别。 前任竟在我身边，而我的室友正在追求我的前任，这就是新的地狱开局。</p>
+        <div class="tag-row"><span>真人秀</span><span>爱情</span><span>恋综</span><span>前任</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="恐怖禁忌之红旗袍" data-region="中国大陆" data-type="电影" data-year="2016" data-search="恐怖禁忌之红旗袍 中国大陆 电影 2016 惊悚/恐怖 绣花鞋, 民国, 怨灵, 民俗 民国时期，一件压在箱底的红旗袍每缝一针都带着怨气，穿上它的人必死。">
+    <a class="poster-link" href="./movies/movie-0048.html" aria-label="观看恐怖禁忌之红旗袍">
+        <img src="./48.jpg" alt="恐怖禁忌之红旗袍海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2016 · 中国大陆</div>
+        <h3><a href="./movies/movie-0048.html">恐怖禁忌之红旗袍</a></h3>
+        <p>民国时期，一件压在箱底的红旗袍每缝一针都带着怨气，穿上它的人必死。</p>
+        <div class="tag-row"><span>惊悚</span><span>恐怖</span><span>绣花鞋</span><span>民国</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="狐狸与猎狗" data-region="中国大陆" data-type="动画电影" data-year="2025" data-search="狐狸与猎狗 中国大陆 动画电影 2025 剧情, 冒险, 动物 友谊, 对立, 宿命, 国风手绘, 催泪 一只被猎人养大的小狐狸，和一只被训练成猎犬的小狗，在森林深处结下了超越天敌的友谊，却终将面临命运的撕扯。">
+    <a class="poster-link" href="./movies/movie-0049.html" aria-label="观看狐狸与猎狗">
+        <img src="./49.jpg" alt="狐狸与猎狗海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">动画电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2025 · 中国大陆</div>
+        <h3><a href="./movies/movie-0049.html">狐狸与猎狗</a></h3>
+        <p>一只被猎人养大的小狐狸，和一只被训练成猎犬的小狗，在森林深处结下了超越天敌的友谊，却终将面临命运的撕扯。</p>
+        <div class="tag-row"><span>剧情</span><span>冒险</span><span>动物</span><span>友谊</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="2001影音全纪录" data-region="中国香港" data-type="剧集" data-year="2001" data-search="2001影音全纪录 中国香港 剧集 2001 纪录片 / 历史 千禧年, 社会变迁, 影像档案 一份来自2001年的影音档案，记录了一栋香港旧楼里九个普通人的最后一年。">
+    <a class="poster-link" href="./movies/movie-0050.html" aria-label="观看2001影音全纪录">
+        <img src="./50.jpg" alt="2001影音全纪录海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">剧集</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2001 · 中国香港</div>
+        <h3><a href="./movies/movie-0050.html">2001影音全纪录</a></h3>
+        <p>一份来自2001年的影音档案，记录了一栋香港旧楼里九个普通人的最后一年。</p>
+        <div class="tag-row"><span>纪录片</span><span>历史</span><span>千禧年</span><span>社会变迁</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="我们人生中最精彩的瞬间" data-region="韩国" data-type="电影" data-year="2024" data-search="我们人生中最精彩的瞬间 韩国 电影 2024 剧情 / 运动 / 女性 女子手球, 真实改编, 国家队, 热血, 悲壮 一群被放弃的前女子手球队员临时组队备战亚运，结果创造了不可能的奇迹。">
+    <a class="poster-link" href="./movies/movie-0051.html" aria-label="观看我们人生中最精彩的瞬间">
+        <img src="./51.jpg" alt="我们人生中最精彩的瞬间海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2024 · 韩国</div>
+        <h3><a href="./movies/movie-0051.html">我们人生中最精彩的瞬间</a></h3>
+        <p>一群被放弃的前女子手球队员临时组队备战亚运，结果创造了不可能的奇迹。</p>
+        <div class="tag-row"><span>剧情</span><span>运动</span><span>女性</span><span>女子手球</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="残梦" data-region="中国大陆" data-type="电影" data-year="2024" data-search="残梦 中国大陆 电影 2024 剧情 / 悬疑 / 文艺 记忆, 梦境, 失踪, 心理, 非线性叙事 妻子失踪后，男人每晚都会梦到一个相同的陌生房间，而房间的墙壁里，传出微弱的敲击声。">
+    <a class="poster-link" href="./movies/movie-0052.html" aria-label="观看残梦">
+        <img src="./52.jpg" alt="残梦海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2024 · 中国大陆</div>
+        <h3><a href="./movies/movie-0052.html">残梦</a></h3>
+        <p>妻子失踪后，男人每晚都会梦到一个相同的陌生房间，而房间的墙壁里，传出微弱的敲击声。</p>
+        <div class="tag-row"><span>剧情</span><span>悬疑</span><span>文艺</span><span>记忆</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="那年夏天有风吹过" data-region="中国台湾" data-type="电影" data-year="2025" data-search="那年夏天有风吹过 中国台湾 电影 2025 爱情/青春 怀旧, 暗恋, 音乐元素 一盘遗失的老式卡带，让已经失联十年的高中恋人重新踏上了寻回彼此的旅程。">
+    <a class="poster-link" href="./movies/movie-0053.html" aria-label="观看那年夏天有风吹过">
+        <img src="./53.jpg" alt="那年夏天有风吹过海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2025 · 中国台湾</div>
+        <h3><a href="./movies/movie-0053.html">那年夏天有风吹过</a></h3>
+        <p>一盘遗失的老式卡带，让已经失联十年的高中恋人重新踏上了寻回彼此的旅程。</p>
+        <div class="tag-row"><span>爱情</span><span>青春</span><span>怀旧</span><span>暗恋</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="酒精计划" data-region="丹麦" data-type="电影" data-year="2020" data-search="酒精计划 丹麦 电影 2020 剧情 / 生活 / 哲学 中年危机、实验、微醺、友谊、重生 四个中年老师为了找回生活激情，进行“持续微醺”的人体实验，结果却走向失控。">
+    <a class="poster-link" href="./movies/movie-0054.html" aria-label="观看酒精计划">
+        <img src="./54.jpg" alt="酒精计划海报" loading="lazy" onerror="this.classList.add('image-missing')">
+        <span class="card-badge">电影</span>
+        
+        <span class="play-mini">▶</span>
+    </a>
+    <div class="card-body">
+        <div class="card-meta">2020 · 丹麦</div>
+        <h3><a href="./movies/movie-0054.html">酒精计划</a></h3>
+        <p>四个中年老师为了找回生活激情，进行“持续微醺”的人体实验，结果却走向失控。</p>
+        <div class="tag-row"><span>剧情</span><span>生活</span><span>哲学</span><span>中年危机</span></div>
+    </div>
+</article>
+</div>
+<div class="empty-state" data-empty-state hidden>没有找到匹配的影片。</div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <a class="footer-brand" href="./index.html">国产高清影视</a>
+            <p>免费不卡顿在线观看国产高清影视，独家收录大陆、香港、台湾地区最新电影、电视剧和综艺节目，高清画质，更新及时，精彩内容尽在掌握</p>
+        </div>
+        <div class="footer-links">
+            <a href="./categories.html">分类索引</a>
+            <a href="./rankings.html">热门排行</a>
+            <a href="./category/all.html">全部片库</a>
+            <a href="./search.html">搜索影片</a>
+        </div>
+    </div>
+    <div class="footer-copy">© 2026 国产高清影视</div>
+</footer>
+<script src="./assets/main.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
